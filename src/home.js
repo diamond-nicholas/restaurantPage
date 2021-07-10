@@ -1,14 +1,7 @@
 const home = () => {
   const content = document.querySelector('#content');
-  content.innerHTML = `<nav class="nav">Take Me Away Restaurant</nav>
+  content.innerHTML = `
       <main>
-          <section class="menu">
-              <ul class="menu-list">
-                  <li class="list"><button>Home</button></li>
-                  <li class="list"><button>Menu</button></li>
-                  <li class="list"><button>Contact</button></li>
-              </ul>
-          </section>
       <section class="about">
         <h6>About TakeMe Away Restaurant</h6>
         <p>Beary's has the best porridge! The atmosphere and customer service make you feel like you are sitting in the middle of the woods, eating like a bear! This is exactly the kind of place that I like to return to again and again.</p>
