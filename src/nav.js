@@ -8,7 +8,7 @@ const myNav = () => {
   section.innerHTML = `
   <ul class="menu-list">
     <li class="list">
-      <button>Home</button>
+      <button class="home">Home</button>
     </li>
     <li class="list">
       <button>Menu</button>

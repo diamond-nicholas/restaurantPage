@@ -6,12 +6,14 @@ import myNav from './nav.js';
 import menuList from './menu.js';
 import contact from './contact.js';
 
+
 const myBg =  new Image();
 myBg.src = Bg
 
 
 myNav();
 home();
+
 // menuList();
 // contact()
 // const main = document.querySelector('#content')
