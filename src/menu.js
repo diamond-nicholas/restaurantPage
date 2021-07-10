@@ -1,4 +1,4 @@
-import moi from './moi.jpeg'
+import moi from './Assets/moi.jpeg'
 
 const list = [1,2,3,4,5]
 const menuList = () => {
