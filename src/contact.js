@@ -13,6 +13,24 @@ const contact = () => {
         <p>chefdamon@email.com</p>
         <img src="${myChef.src}" alt="" width="100">
     </article>
+    <article>
+        <h3>Chef Peters</h3>
+        <p>+2348199008773</p>
+        <p>chefdamon@email.com</p>
+        <img src="${myChef.src}" alt="" width="100">
+    </article>
+    <article>
+        <h3>Chef Susan</h3>
+        <p>+2348199008773</p>
+        <p>chefdamon@email.com</p>
+        <img src="${myChef.src}" alt="" width="100">
+    </article>
+    <article>
+        <h3>Chef Vena</h3>
+        <p>+2348199008773</p>
+        <p>chefdamon@email.com</p>
+        <img src="${myChef.src}" alt="" width="100">
+    </article>
   `;
   content.appendChild(contacts)
 }

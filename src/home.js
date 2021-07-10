@@ -1,7 +1,8 @@
 const home = () => {
   const content = document.querySelector('#content');
-  content.innerHTML = `
-      <main>
+  const homePage = document.createElement('main');
+
+  homePage.innerHTML = `
       <section class="about">
         <h6>About TakeMe Away Restaurant</h6>
         <p>Beary's has the best porridge! The atmosphere and customer service make you feel like you are sitting in the middle of the woods, eating like a bear! This is exactly the kind of place that I like to return to again and again.</p>
@@ -21,10 +22,8 @@ const home = () => {
       <section class="location">
         <h6>Location</h6>
         <p>123 Forest Drive, Forestville, Maine</p>
-      </section>
-    </main>`;
-
-    document.body.appendChild(content);
+      </section>`;
+  content.appendChild(homePage);
 
 }
 
