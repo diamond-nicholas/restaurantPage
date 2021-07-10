@@ -45,3 +45,16 @@
   align-items: center;
   justify-content: center;
 }
+
+.location h6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
