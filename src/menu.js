@@ -1,11 +1,11 @@
-import moi from './Assets/moi.jpeg'
+import moi from './Assets/moi.jpeg';
 
 const menuList = () => {
-  const content = document.querySelector("#content");
-  const menuItem = document.createElement("section");
+  const content = document.querySelector('#content');
+  const menuItem = document.createElement('section');
   const myMoi = new Image();
   myMoi.src = moi;
-  menuItem.classList.add('main_menu')
+  menuItem.classList.add('main_menu');
   menuItem.innerHTML = `<h2>Menu</h2>
     <article>
         <h3>moi-moi</h3>

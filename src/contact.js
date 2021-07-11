@@ -1,10 +1,10 @@
-import chef from './Assets/chef.png'
+import chef from './Assets/chef.png';
 
 const contact = () => {
   const content = document.querySelector('#content');
   const contacts = document.createElement('div');
   const myChef = new Image();
-  myChef.src = chef
+  myChef.src = chef;
   contacts.innerHTML = `
     <h2>Contact the staff on duty</h2>
     <article>
@@ -32,7 +32,7 @@ const contact = () => {
         <img src="${myChef.src}" alt="" width="100">
     </article>
   `;
-  content.appendChild(contacts)
-}
+  content.appendChild(contacts);
+};
 
 export default contact;

@@ -24,7 +24,6 @@ const home = () => {
         <p>123 Forest Drive, Forestville, Maine</p>
       </section>`;
   content.appendChild(homePage);
-
-}
+};
 
 export default home;

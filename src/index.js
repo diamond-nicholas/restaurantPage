@@ -1,16 +1,14 @@
 import './styles.css';
 import Bg from './Assets/bg.jpg';
-import home from './home.js'
-import myNav from './nav.js';
-import menuList from './menu.js';
-import contact from './contact.js';
+import home from './home';
+import myNav from './nav';
+import menuList from './menu';
+import contact from './contact';
 
+const myBg = new Image();
+myBg.src = Bg;
 
-const myBg =  new Image();
-myBg.src = Bg
-
-
-const content = document.getElementById("content");
+const content = document.getElementById('content');
 myNav();
 home();
 
@@ -27,8 +25,8 @@ document.addEventListener('click', (event) => {
     myNav();
     menuList();
   }
-  if (value === "Contact") {
-    content.innerHTML = "";
+  if (value === 'Contact') {
+    content.innerHTML = '';
     myNav();
     contact();
   }

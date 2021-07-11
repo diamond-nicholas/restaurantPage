@@ -6,17 +6,20 @@
   display: flex;
   justify-content: center;
 }
+
 .menu {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .menu-list {
   display: flex;
   list-style: none;
   justify-content: center;
   align-items: center;
 }
+
 .list {
   margin: 0.5rem;
 }
@@ -57,4 +60,3 @@
   align-items: center;
   justify-content: center;
 }
-

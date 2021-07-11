@@ -1,9 +1,9 @@
 const myNav = () => {
   const content = document.querySelector('#content');
   const nav = document.createElement('nav');
-  const section = document.createElement('section'); 
-  section.classList.add('menu')
-  nav.classList.add('nav')
+  const section = document.createElement('section');
+  section.classList.add('menu');
+  nav.classList.add('nav');
   nav.textContent = 'Take Me Away Restaurant';
   section.innerHTML = `
   <ul class="menu-list">
@@ -17,8 +17,8 @@ const myNav = () => {
       <button>Contact</button>
     </li>
   </ul>`;
-  content.appendChild(nav)
-  content.appendChild(section)
-}
+  content.appendChild(nav);
+  content.appendChild(section);
+};
 
 export default myNav;
