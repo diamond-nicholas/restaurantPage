@@ -5,7 +5,7 @@ const home = () => {
   homePage.innerHTML = `
       <section class="about">
         <h6>About TakeMe Away Restaurant</h6>
-        <p>Beary's has the best porridge! The atmosphere and customer service make you feel like you are sitting in the middle of the woods, eating like a bear! This is exactly the kind of place that I like to return to again and again.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos magnam a fugit consectetur, necessitatibus alias, sit doloribus impedit vel laudantium odio sequi esse facilis illo perspiciatis libero nesciunt. Beatae labore accusamus animi vitae cum totam eius dolore exercitationem officia. Nobis?</p>
       </section>
       <section class="hours">
         <h6>Opening Hours</h6>

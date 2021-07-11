@@ -1,12 +1,8 @@
 import './styles.css';
-import Bg from './Assets/bg.jpg';
 import home from './home';
 import myNav from './nav';
 import menuList from './menu';
 import contact from './contact';
-
-const myBg = new Image();
-myBg.src = Bg;
 
 const content = document.getElementById('content');
 myNav();

@@ -1,5 +1,5 @@
 * {
-  background: url('./Assets/bg.jpg');
+  color:rgb(34, 200, 206);
 }
 
 .nav {
@@ -9,6 +9,7 @@
 
 .menu {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }

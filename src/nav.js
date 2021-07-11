@@ -1,7 +1,11 @@
+import Bg from './Assets/bg2.jpg';
+
 const myNav = () => {
   const content = document.querySelector('#content');
   const nav = document.createElement('nav');
   const section = document.createElement('section');
+  const myBg = new Image();
+  myBg.src = Bg;
   section.classList.add('menu');
   nav.classList.add('nav');
   nav.textContent = 'Take Me Away Restaurant';
@@ -16,7 +20,9 @@ const myNav = () => {
     <li class="list">
       <button>Contact</button>
     </li>
-  </ul>`;
+  </ul>
+  <img src="${myBg.src}" alt="" width=300>
+  `;
   content.appendChild(nav);
   content.appendChild(section);
 };
