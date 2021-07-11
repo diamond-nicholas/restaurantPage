@@ -4,7 +4,7 @@
 
 > A Restaurant page strictly built dynamically with javascript
 
-![screenshot](.)
+![screenshot](./Assets/main.png)
 
 This app is built dinamically with javascript and uses the tab function which switches from home to menu to contact on click.
 
@@ -15,7 +15,7 @@ This app is built dinamically with javascript and uses the tab function which sw
 
 ## Live Demo
 
-[Live Demo Link](https://60ea6e1f1fd78b0321acedaa--elated-banach-6a955b.netlify.app/)
+[Live Demo Link](https://60ea74ad6794f6eb69b7b534--compassionate-shockley-8306ff.netlify.app/)
 
 
 ## Getting Started*
