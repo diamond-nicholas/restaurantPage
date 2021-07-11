@@ -22,20 +22,23 @@ This app is built dinamically with javascript and uses the tab function which sw
 
 To get a local copy up and running follow these simple example steps.
 
-### Setup
 
- - On the top of this repo click on the button named "Clone"
- - Copy the HTTP URL or SSH.
- - On the terminal type `git clone <copied-value>` where is the value you copied on the previous step.
+### Install
 
- or
+You can download the code to your personal computer clonig the repository using the following command
 
- - On the top of this repo click on the button named "Clone"
- - Click on the button "Download zip".
+```
+git clone https://github.com/diamond-nicholas/restaurantPage.git
+
+```
+You will also have to checkout to the homepage branch and use the command ```git pull``` to get the lastest code.
+
+You also need to use the command ```npm install``` to install all packages from the project.
 
 ### Usage
 
 - Open the `index.html` file inside the `dist` folder using your browser of choice.
+- Or you can simple run ```yarn start``` or ```npm start``` on the terminal to load the project on your default browser on port:8080
 
 ## Authors
 
