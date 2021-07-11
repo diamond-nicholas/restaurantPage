@@ -1,4 +1,3 @@
-import _ from 'lodash';
 import './styles.css';
 import Bg from './Assets/bg.jpg';
 import home from './home.js'
@@ -34,10 +33,3 @@ document.addEventListener('click', (event) => {
     contact();
   }
 });
-// menuList();
-// contact()
-// const main = document.querySelector('#content')
-// const btn = document.createElement('button');
-// btn.innerHTML = 'click me'
-// btn.onclick = home
-// main.appendChild(btn)
