@@ -1,0 +1,63 @@
+* {
+  color: rgb(34, 200, 206);
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  margin: 0.5rem;
+}
+
+.about h6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about p {
+  display: flex;
+  align-items: center;
+}
+
+.hours h6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hours ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.location h6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
